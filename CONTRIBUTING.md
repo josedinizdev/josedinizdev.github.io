@@ -25,7 +25,7 @@ Esta seção orienta você as possíveis maneiras de contribuir.
 
 ### Relatando bugs
 
-Os bugs são rastreados como [issues](https://github.com/backend-br/opensource-br/issues) no GitHub, crie um problema e
+Os bugs são rastreados como [issues](https://github.com/idiogodiniz/idiogodiniz.github.io/issues) no GitHub, crie um problema e
 forneça as seguintes informações:
 
 - Use um título claro e descritivo para identificar o problema.
@@ -35,7 +35,7 @@ forneça as seguintes informações:
 
 ### Sugerindo melhorias
 
-As sugestões de melhorias são rastreadas como [issues](https://github.com/backend-br/opensource-br/issues) no
+As sugestões de melhorias são rastreadas como [issues](https://github.com/idiogodiniz/idiogodiniz.github.io/issues) no
 GitHub, crie sua sugestão e forneça a informação a seguir:
 
 - Use um título claro e descritivo para identificar a sugestão.
@@ -50,6 +50,6 @@ Para iniciar o desenvolvimento, você precisará seguir alguns passos:
 
 - Fork este repositório.
 - Faça um clone do repositório que você fez seu fork.
-- Crie uma branch a partir da branch `master`.
+- Crie uma branch a partir da branch `main`.
 - Adicione sua contribuição, faça o commit e push.
-- Abra um [pull request](https://github.com/backend-br/opensource-br/pulls).
+- Abra um [pull request](https://github.com/idiogodiniz/idiogodiniz.github.io/pulls).
