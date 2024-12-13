@@ -9,7 +9,7 @@ export default function Home() {
       <main className="flex flex-col w-full h-full items-center justify-center p-10">
         <section className="flex flex-col gap-8 w-full h-fit">
           <div className="flex flex-col gap-3 w-full">
-            <div className="flex flex-row gap-3 items-center bg-cyan-800 w-fit px-4 py-3 rounded-full">
+            <div className="flex flex-row gap-3 items-center bg-cyan-800 w-fit px-2 py-2 pr-4 rounded-full">
               <div className="w-fit h-fit relative">
                 <BiSolidMessageDots size={16} color="#fff" className="absolute -top-1 -right-2 z-20" />
                 <Avatar
@@ -29,18 +29,18 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-4">
             <p className="text-base">
-              Atuo no mercado como desenvolvedor fullstack, criando soluções
+              Atuo no mercado como Desenvolvedor Fullstack, criando soluções
               para problemas todos os dias.
             </p>
             <p className="text-base">
               Já fui responsável pelo desenvolvimento de automações comerciais
-              para varejo e restaurantes, emissores de documentos fiscais,
+              para varejos e restaurantes, emissores de documentos fiscais,
               plataformas web de vendas e plataformas de cursos.
             </p>
             <p className="text-base">
               Tenho experiência em plataformas web, desktop e mobile, onde
               utilizei tecnologias como TypeScript, Next.js, React Native, C#,
-              ASP.NET, WinForms, entre outras.
+              ASP.NET e WinForms.
             </p>
           </div>
           <div className="flex flex-row gap-2">
