@@ -4,6 +4,7 @@
 
 :root {
   font-size: 16px;
+  --cor-principal: #155e75;
 }
 
 html, body {
@@ -19,10 +20,30 @@ html, body {
   text-decoration: inherit;
 }
 
-main, header {
+main, header > div {
   max-width: 1200px;
+}
+
+main {
+  padding: 40px;
 }
 
 body {
   background: #fff;
+}
+
+.text-principal {
+  color: var(--cor-principal);
+}
+
+.bg-principal {
+  background-color: var(--cor-principal);
+}
+
+.border-principal {
+  border-color: var(--cor-principal);
+}
+
+.border-3 {
+  border-width: 3px;
 }
