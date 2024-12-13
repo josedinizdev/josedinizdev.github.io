@@ -1,5 +1,5 @@
-name: publish
-description: "Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧"
+name: setup-node
+description: "Setup Node.js - Cache dependencies - Install dependencies"
 runs:
   using: "composite"
   steps:
