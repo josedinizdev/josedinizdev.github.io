@@ -22,19 +22,20 @@ export interface Projeto {
 }
 
 function IconeTecnologia({ tecnologia }: { tecnologia: Tecnologias }) {
-  let Icone;
-  if (tecnologia == 'JavaScript') Icone = () => <IoLogoJavascript size={48} color="#ffe100" />
-  else if (tecnologia == 'TypeScript') Icone = () => <BiLogoTypescript size={48} color="#135897" />
-  else if (tecnologia == 'React') Icone =  () => <IoLogoReact size={48} color="#013a6f" />
-  else if (tecnologia == 'MongoDB') Icone =  () => <SiMongodb size={48} color="#4faa41" />
-  else if (tecnologia == 'Nodejs') Icone =  () => <FaNodeJs size={48} color="#50914d" />
-  else if (tecnologia == 'MySQL') Icone =  () => <TbBrandMysql size={48} color="#135897" />
-  else Icone = () =>  <></>
-
-  return <div className="flex flex-col h-fit w-fit items-center">
-    <Icone />
-    <p className="text-xs">{tecnologia}</p>
-  </div>
+  if (tecnologia == 'JavaScript')
+    return <div className="flex flex-col h-fit w-fit items-center"><IoLogoJavascript size={48} color="#ffe100" /><p className="text-xs">{tecnologia}</p></div>
+  else if (tecnologia == 'TypeScript')
+    return <div className="flex flex-col h-fit w-fit items-center"><BiLogoTypescript size={48} color="#135897" /><p className="text-xs">{tecnologia}</p></div>
+  else if (tecnologia == 'React')
+    return <div className="flex flex-col h-fit w-fit items-center"><IoLogoReact size={48} color="#013a6f" /><p className="text-xs">{tecnologia}</p></div>
+  else if (tecnologia == 'MongoDB')
+    return <div className="flex flex-col h-fit w-fit items-center"><SiMongodb size={48} color="#4faa41" /><p className="text-xs">{tecnologia}</p></div>
+  else if (tecnologia == 'Nodejs')
+    return <div className="flex flex-col h-fit w-fit items-center"><FaNodeJs size={48} color="#50914d" /><p className="text-xs">{tecnologia}</p></div>
+  else if (tecnologia == 'MySQL')
+    return <div className="flex flex-col h-fit w-fit items-center"><TbBrandMysql size={48} color="#135897" /><p className="text-xs">{tecnologia}</p></div>
+  else
+    return <></>
 }
 
 export function CardProjeto(props: Projeto) {
