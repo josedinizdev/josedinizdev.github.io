@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { Button } from "../actions/Button";
 import { useState } from "react";
@@ -17,9 +17,15 @@ export function Cabecalho() {
         </Link>
 
         <div className="flex sm:hidden">
-          <Button onClick={() => setMenu(true)} sx={{ p: 0, }}><HiMenu size={32} /></Button>
+          <Button onClick={() => setMenu(true)} sx={{ p: 0 }}>
+            <HiMenu size={32} />
+          </Button>
           <Drawer anchor="right" open={menu} onClose={() => setMenu(false)}>
-            <Box sx={{ width: 250 }} role="presentation" onClick={() => setMenu(false)}>
+            <Box
+              sx={{ width: 250 }}
+              role="presentation"
+              onClick={() => setMenu(false)}
+            >
               <List>
                 <ListItem>
                   <Link href="/">inicio</Link>
@@ -30,34 +36,31 @@ export function Cabecalho() {
                 <ListItem>
                   <Link href="/projetos">projetos</Link>
                 </ListItem>
-                <ListItem>
-                  <Link href="/contato">contato</Link>
-                </ListItem>
               </List>
               <div className="w-full flex flex-row gap-4 justify-center sm:justify-start">
-                              <a
-                                className="flex items-center justify-center w-10 h-10 border-principal border-3 rounded-full"
-                                href="https://github.com/josedinizdev"
-                              >
-                                <FiGithub size={24} color="var(--cor-principal)" />
-                              </a>
-                              <a
-                                className="flex items-center justify-center w-10 h-10 border-principal border-3 rounded-full"
-                                href="https://www.instagram.com/diniz.dev/"
-                              >
-                                <FaInstagram size={24} color="var(--cor-principal)" />
-                              </a>
-                              <a
-                                className="flex items-center justify-center w-10 h-10 border-principal border-3 rounded-full"
-                                href="https://api.whatsapp.com/send?phone=5511940646725"
-                              >
-                                <FaWhatsapp size={24} color="var(--cor-principal)" />
-                              </a>
-                            </div>
+                <a
+                  className="flex items-center justify-center w-10 h-10 border-principal border-3 rounded-full"
+                  href="https://github.com/josedinizdev"
+                >
+                  <FiGithub size={24} color="var(--cor-principal)" />
+                </a>
+                <a
+                  className="flex items-center justify-center w-10 h-10 border-principal border-3 rounded-full"
+                  href="https://www.instagram.com/diniz.dev/"
+                >
+                  <FaInstagram size={24} color="var(--cor-principal)" />
+                </a>
+                <a
+                  className="flex items-center justify-center w-10 h-10 border-principal border-3 rounded-full"
+                  href="https://api.whatsapp.com/send?phone=5511940646725"
+                >
+                  <FaWhatsapp size={24} color="var(--cor-principal)" />
+                </a>
+              </div>
             </Box>
           </Drawer>
         </div>
-        
+
         <nav className="hidden sm:flex">
           <ul className="flex flex-row gap-7">
             <li>
@@ -68,9 +71,6 @@ export function Cabecalho() {
             </li>
             <li>
               <Link href="/projetos">projetos</Link>
-            </li>
-            <li>
-              <Link href="/contato">contato</Link>
             </li>
           </ul>
         </nav>
