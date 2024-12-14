@@ -1,7 +1,7 @@
 import { Avatar } from "@mui/material";
 import Link from "next/link";
 import { BiSolidMessageDots } from "react-icons/bi";
-import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 
 export default function Home() {

@@ -4,7 +4,7 @@ import { Button } from "../actions/Button";
 import { useState } from "react";
 import { Box, Drawer, List, ListItem } from "@mui/material";
 import { HiMenu } from "react-icons/hi";
-import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 
 export function Cabecalho() {

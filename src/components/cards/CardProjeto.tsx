@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Button } from "../actions/Button";
 import { useState } from "react";
 import { Box, Modal, Typography, Chip, Stack } from "@mui/material";
