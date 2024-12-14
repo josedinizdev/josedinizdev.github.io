@@ -4,7 +4,7 @@ const projetos: Projeto[] = [
   {
     titulo: "DevMonk",
     imagem: "/assets/images/devmonk.png",
-    descricao: "Plataforma online de cursos de programacao com video aulas, quiz e atividades. Essa plataforma atende hoje mais de 200 alunos.",
+    descricao: "Plataforma online de cursos de programacao com video aulas, quiz e atividades. Essa plataforma possui mais de 100 alunos ativos.",
     ano: "2023",
     tecnologias: ["JavaScript", "React", "MongoDB", "Nodejs"],
     site: "https://devmonk.com.br/"
