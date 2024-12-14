@@ -44,7 +44,7 @@ export function CardProjeto(props: Projeto) {
   return (
     <>
       <Button
-        className="w-full overflow-hidden"
+        className="w-full h-fit overflow-hidden"
         onClick={() => setDetalhe(true)}
         sx={{
           display: "flex",
@@ -62,7 +62,7 @@ export function CardProjeto(props: Projeto) {
           <img
             src={props.imagem}
             alt={props.titulo}
-            style={{ width: "100%", height: "auto" }}
+            style={{ width: "100%", height: "auto", objectFit: "cover" }}
           />
         </div>
         <div className="w-full flex flex-col p-4 justify-start items-start gap-2">
