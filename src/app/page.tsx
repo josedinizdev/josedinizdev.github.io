@@ -89,7 +89,8 @@ export default function Home() {
               </div>
               <div className="w-full flex flex-row gap-2 justify-center sm:justify-start">
                 <a
-                  href=""
+                  href="/JoseDiniz.pdf"
+                  download="JoseDiniz.pdf"
                   className="px-5 py-2 border-principal border-3 bg-principal rounded-full text-white font-bold"
                 >
                   Baixar curriculo

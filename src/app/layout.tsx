@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <link rel="icon" href="/favicon.svg" sizes="any" />
+      </head>
       <body className={`${poppins.className} antialiased`}>
         <AppRouterCacheProvider>
           <div className="flex flex-col w-full h-full items-center">
