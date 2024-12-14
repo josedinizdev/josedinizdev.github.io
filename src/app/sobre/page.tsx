@@ -1,6 +1,6 @@
-import { CardTecnologia, ICardTecnologia } from "@/components/cards/CardTecnologia";
+import { CardTecnologia, Tecnologia } from "@/components/cards/CardTecnologia";
 
-const tecnologias: ICardTecnologia[] = [
+const tecnologias: Tecnologia[] = [
   {
     titulo: "Front-end",
     conteudo: [
@@ -90,10 +90,10 @@ export default function Sobre() {
             habilidades e me aprofundar em suas aplicações.
           </p>
         </article>
-        <article className="w-full flex flex-col gap-2">
+        <article className="w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
           <h2 className="text-principal font-bold text-2xl">Tecnologias</h2>
           <div className="flex flex-row w-full gap-4">
-            {tecnologias.map(tec => <CardTecnologia titulo={tec.titulo} conteudo={tec.conteudo}  />)}
+            {tecnologias.map((tec, i) => <CardTecnologia key={i} titulo={tec.titulo} conteudo={tec.conteudo}  />)}
           </div>
         </article>
       </main>
