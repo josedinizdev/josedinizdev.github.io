@@ -2,7 +2,7 @@
 
 import { Button } from "../actions/Button";
 import { useState } from "react";
-import { Box, Modal, Typography, Chip, Stack } from "@mui/material";
+import { Box, Modal, Stack } from "@mui/material";
 import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
